@@ -19,7 +19,7 @@ The values can range from 1 - 255 and are comma separated, usually encapsulated 
 To run from the commandline you need to reference the full filepath of the file you want to decode:
 
 ```
-[foo@bar ~]$ python ddDecode/main.py -f 'C:\Users\nynir\Documents\encoded_file'
+[foo@bar ~]$ python ddDecode/main.py -f C:\Users\nynir\Documents\encoded_file
 ```
 
 ## Future plans
