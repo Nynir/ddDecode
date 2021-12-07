@@ -1,3 +1,5 @@
+#Hayden Covington
+
 import getopt, sys
 #import subprocess as sp
 import os
@@ -41,7 +43,7 @@ def doConversion(fullPath):
     with open('decoded_file') as secondPass:
         fullText = secondPass.read()
         spliced = fullText.split(",")
-    with open('decoded_file') as thirdPass:
+    with open('decoded_file', 'w+') as thirdPass:
         for i in range(len(spliced)):
             f = spliced[i]
             if f!="":
@@ -60,6 +62,8 @@ def doConversion(fullPath):
     os.system("rm printfile.sh")
     os.system("rm decoded_file")
     os.system("rm hexValues")
+
+    print("ddDecode: conversion complete")
 
 def main(argv):
     short_options = "f:"
