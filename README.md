@@ -2,7 +2,7 @@
 
 ### Note: currently only functions on Linux devices.. working on fixing that
 
-I wrote this code because I needed a quick and easy way to decode decimal dump files without installing anything extra. I hope it helps you.
+I wrote this code because I needed a quick and easy way to decode decimal dump files without installing anything extra. I hope it helps you. I originally wrote it to solve a specific case on the job, but decided to re-create it on my own time to further develop the capability.
 
 ## Decimal Dump
 
